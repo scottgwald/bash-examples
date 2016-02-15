@@ -1,0 +1,9 @@
+#! /bin/bash
+
+infile="$1"
+
+if [ -s "$infile" ]; then
+  echo "file is not empty! $infile"
+else
+  echo "file is empty! $infile"
+fi

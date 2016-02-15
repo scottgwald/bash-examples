@@ -1,0 +1,9 @@
+#! /bin/bash
+
+infile="$1"
+
+if [ -f "$infile" ]; then
+  echo "file exists! $infile"
+else
+  echo "file does not exist! $infile"
+fi
